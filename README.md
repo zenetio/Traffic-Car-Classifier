@@ -188,7 +188,8 @@ To accelerate the model training, avoid lots of disk access, and try to avoid me
 
 ### 3. Model Architecture
 
-As a data-centric solution, the changes in the model architecture were minimum, when compared with the original LeNet-5 architecture.
+As a data-centric solution, the changes in the model architecture were minimum, when compared with the original LeNet-5 architecture.<br>
+The Figure 6 shows the final model configuration with all layers and the sizes used on each layer.
 
 <div style="text-align:center">
     <img src="./images/model-summary.png" stype="center" width="500" height="400"/><br>
@@ -427,8 +428,8 @@ For the sixth image, we have a different behavior:
 
 Here the model is not totally confident between 50km/h and 60km/h sign.
 
-It make sense, because the major difference between the number 5 and 6 is just a missing line in number 5. Then, add this little difference to the view quality of dataset and we can understand why 50km/h does not mathed the probability 1.0 as in the other cases.<br>
-So, I can conclude that if I had not included the [CLAHE](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) algorithm to improve the image contrast, I am sure that this difficulty to visualize some differences between signs, would be certainly high, negatively impacting the model performance.
+It make sense, because the major difference between the number 5 and 6 is just a missing line in number 5. Then, add this little difference to the view quality of dataset and we can understand why the difficulty for the model to classify between 30km/h and 50km/h, resulting on probability <1.0 as in the other cases.<br>
+So, I can conclude that if I had not included the [CLAHE](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) algorithm to improve the image contrast, I am sure that this difficulty to visualize some little differences between signs, would be certainly higher, negatively impacting the model performance.
 
 ### 6. Final Comments
 
