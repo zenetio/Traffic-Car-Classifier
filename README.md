@@ -20,13 +20,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./images/distrib.jpg "Distribution"
-[iimage2]: ./examples/grayscale.jpg "Grayscaling"
-[iimage3]: ./examples/random_noise.jpg "Random Noise"
-[iimage4]: ./examples/placeholder.png "Traffic Sign 1"
-[iimage5]: ./examples/placeholder.png "Traffic Sign 2"
-[iimage6]: ./examples/placeholder.png "Traffic Sign 3"
-[iimage7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
 [image9]: ./images/summary.jpg "Dataset View"
 [image2]: ./images/data-centric.png "Data-centric"
 [image3]: ./images/visibility.png "Visibility"
